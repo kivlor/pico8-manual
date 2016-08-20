@@ -1,0 +1,24 @@
+{
+  "name": "pico8-manual",
+  "version": "0.0.1",
+  "author": "Andrew Gallager <kivlor@gmail.com>",
+  "description": "a readable pico-8 manual + parser",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kivlor/pico8-manual.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pico8manual" : "./parser.js"
+  },
+  "dependencies": {
+    "yargs": "^5.0.0"
+  },
+  "engines": {
+    "node": "~6.4.0"
+  }
+}
